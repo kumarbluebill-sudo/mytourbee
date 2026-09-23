@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My TourBee — Luxury Travel Experiences | Domestic & International Tour Packages</title>
+    <meta name="description" content="My TourBee offers luxury domestic and international tour packages from Coimbatore. Explore Golden Triangle, Kerala, Goa, Rajasthan, Thailand, Bali, Europe & Dubai with detailed itineraries and best prices in INR.">
+    <meta name="keywords" content="tour packages, travel, domestic tours, international tours, Coimbatore travel agency, luxury travel, India tours, Thailand, Bali, Europe, Dubai">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ========== PRELOADER ========== -->
+    <div id="preloader">
+        <div class="loader-bee">
+            <svg class="bee-icon" viewBox="0 0 80 80" width="60" height="60">
+                <circle cx="40" cy="40" r="18" fill="#F7C948" stroke="#1B2A4A" stroke-width="3"/>
+                <rect x="28" y="35" width="24" height="5" rx="2" fill="#1B2A4A"/>
+                <rect x="28" y="42" width="24" height="5" rx="2" fill="#1B2A4A"/>
+                <ellipse cx="28" cy="30" rx="10" ry="6" fill="rgba(255,255,255,0.5)" transform="rotate(-30 28 30)"/>
+                <ellipse cx="52" cy="30" rx="10" ry="6" fill="rgba(255,255,255,0.5)" transform="rotate(30 52 30)"/>
+                <circle cx="35" cy="35" r="2" fill="#1B2A4A"/>
+                <circle cx="45" cy="35" r="2" fill="#1B2A4A"/>
+            </svg>
+        </div>
+        <p class="loader-text">Loading your adventure...</p>
+    </div>
+
+    <!-- ========== NAVIGATION ========== -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <img src="images/logo.png" alt="My TourBee Logo" class="logo-img">
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#domestic" class="nav-link">Domestic Tours</a></li>
+                <li><a href="#international" class="nav-link">International Tours</a></li>
+                <li><a href="#about" class="nav-link">About Us</a></li>
+                <li><a href="#booking" class="nav-link nav-cta">Book Now</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="hero-particles" id="heroParticles"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">✈ Luxury Travel Experiences</div>
+            <h1 class="hero-title">
+                Discover the World with
+                <span class="highlight">My TourBee</span>
+            </h1>
+            <p class="hero-subtitle">
+                Curated domestic & international tour packages with handpicked itineraries, 
+                premium stays, and unforgettable experiences — all at the best prices.
+            </p>
+            <div class="hero-cta">
+                <a href="#domestic" class="btn btn-primary">
+                    <span>🇮🇳</span> Domestic Tours
+                </a>
+                <a href="#international" class="btn btn-secondary">
+                    <span>🌍</span> International Tours
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number" data-target="500">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Tours Completed</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="10000">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Happy Travelers</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="50">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Destinations</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="15">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+            </div>
+        </div>
+        <a href="#domestic" class="scroll-indicator" aria-label="Scroll to explore">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <span>Scroll to Explore</span>
+        </a>
+    </section>
+
+    <!-- ========== DOMESTIC TOURS ========== -->
+    <section id="domestic" class="section tours-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">🇮🇳 Explore India</span>
+                <h2 class="section-title">Domestic Tour Packages</h2>
+                <p class="section-desc">Discover the incredible diversity of India — from majestic forts and serene backwaters to golden beaches and royal heritage.</p>
+            </div>
+
+            <div class="tour-grid">
+
+                <!-- Package 1: Golden Triangle -->
+                <div class="tour-card reveal" data-package="golden-triangle">
+                    <div class="tour-card-image">
+                        <img src="images/golden-triangle.jpg" alt="Taj Mahal at sunset - Golden Triangle Tour" loading="lazy">
+                        <div class="tour-badge">Best Seller</div>
+                        <div class="tour-price">₹24,999<span>/person</span></div>
+                    </div>
+                    <div class="tour-card-body">
+                        <div class="tour-meta">
+                            <span class="tour-duration">🕐 6 Days / 5 Nights</span>
+                            <span class="tour-rating">⭐ 4.9</span>
+                        </div>
+                        <h3 class="tour-name">Golden Triangle</h3>
+                        <p class="tour-route">Delhi → Agra → Jaipur</p>
+                        <p class="tour-desc">Experience India's most iconic cities — the grandeur of the Taj Mahal, the pink city of Jaipur, and the bustling capital Delhi.</p>
+                        <div class="tour-highlights">
+                            <span class="tag">Taj Mahal</span>
+                            <span class="tag">Amber Fort</span>
+                            <span class="tag">Red Fort</span>
+                            <span class="tag">Hawa Mahal</span>
+                        </div>
+                        <div class="tour-actions">
+                            <button class="btn btn-outline" onclick="openItinerary('golden-triangle')">View Itinerary</button>
+                            <a href="#booking" class="btn btn-primary btn-sm" onclick="selectPackage('Golden Triangle (Delhi–Agra–Jaipur)')">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Package 2: Kerala -->
+                <div class="tour-card reveal" data-package="kerala">
+                    <div class="tour-card-image">
+                        <img src="images/kerala.jpg" alt="Kerala backwaters houseboat" loading="lazy">
+                        <div class="tour-badge trending">Trending</div>
+                        <div class="tour-price">₹29,999<span>/person</span></div>
+                    </div>
+                    <div class="tour-card-body">
+                        <div class="tour-meta">
+                            <span class="tour-duration">🕐 7 Days / 6 Nights</span>
+                            <span class="tour-rating">⭐ 4.8</span>
+                        </div>
+                        <h3 class="tour-name">Kerala Backwaters & Hills</h3>
+                        <p class="tour-route">Kochi → Munnar → Thekkady → Alleppey → Kovalam</p>
+                        <p class="tour-desc">God's Own Country awaits — cruise the tranquil backwaters, explore spice plantations, and unwind on pristine beaches.</p>
+                        <div class="tour-highlights">
+                            <span class="tag">Houseboat</span>
+                            <span class="tag">Tea Gardens</span>
+                            <span class="tag">Spice Plantation</span>
+                            <span class="tag">Beaches</span>
+                        </div>
+                        <div class="tour-actions">
+                            <button class="btn btn-outline" onclick="openItinerary('kerala')">View Itinerary</button>
+                            <a href="#booking" class="btn btn-primary btn-sm" onclick="selectPackage('Kerala Backwaters & Hills')">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Package 3: Goa -->
+                <div class="tour-card reveal" data-package="goa">
+                    <div class="tour-card-image">
+                        <img src="images/goa.jpg" alt="Goa beach sunset" loading="lazy">
+                        <div class="tour-badge popular">Popular</div>
+                        <div class="tour-price">₹18,999<span>/person</span></div>
+                    </div>
+                    <div class="tour-card-body">
+                        <div class="tour-meta">
+                            <span class="tour-duration">🕐 5 Days / 4 Nights</span>
+                            <span class="tour-rating">⭐ 4.7</span>
+                        </div>
+                        <h3 class="tour-name">Goa Beach Holiday</h3>
+                        <p class="tour-route">North Goa → South Goa → Old Goa</p>
+                        <p class="tour-desc">Sun, sand, and soul — explore vibrant beach shacks, Portuguese churches, spice farms, and the legendary Goan nightlife.</p>
+                        <div class="tour-highlights">
+                            <span class="tag">Beaches</span>
+                            <span class="tag">Nightlife</span>
+                            <span class="tag">Churches</span>
+                            <span class="tag">Water Sports</span>
+                        </div>
+                        <div class="tour-actions">
+                            <button class="btn btn-outline" onclick="openItinerary('goa')">View Itinerary</button>
+                            <a href="#booking" class="btn btn-primary btn-sm" onclick="selectPackage('Goa Beach Holiday')">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Package 4: Rajasthan -->
+                <div class="tour-card reveal" data-package="rajasthan">
+                    <div class="tour-card-image">
+                        <img src="images/rajasthan.jpg" alt="Rajasthan royal fort sunset" loading="lazy">
+                        <div class="tour-badge premium">Premium</div>
+                        <div class="tour-price">₹34,999<span>/person</span></div>
+                    </div>
+                    <div class="tour-card-body">
+                        <div class="tour-meta">
+                            <span class="tour-duration">🕐 8 Days / 7 Nights</span>
+                            <span class="tour-rating">⭐ 4.9</span>
+                        </div>
+                        <h3 class="tour-name">Rajasthan Royal Heritage</h3>
+                        <p class="tour-route">Jaipur → Jodhpur → Jaisalmer → Udaipur</p>
+                        <p class="tour-desc">Live like royalty — magnificent forts, opulent palaces, desert safaris, and the romantic lake city of Udaipur.</p>
+                        <div class="tour-highlights">
+                            <span class="tag">Desert Safari</span>
+                            <span class="tag">Palaces</span>
+                            <span class="tag">Lake City</span>
+                            <span class="tag">Forts</span>
+                        </div>
+                        <div class="tour-actions">
+                            <button class="btn btn-outline" onclick="openItinerary('rajasthan')">View Itinerary</button>
+                            <a href="#booking" class="btn btn-primary btn-sm" onclick="selectPackage('Rajasthan Royal Heritage')">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== INTERNATIONAL TOURS ========== -->
+    <section id="international" class="section tours-section international-bg">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">🌍 Explore the World</span>
+                <h2 class="section-title">International Tour Packages</h2>
+                <p class="section-desc">Jet off to exotic destinations across the globe — from tropical paradises and ancient temples to European charm and futuristic cities.</p>
+            </div>
+
+            <div class="tour-grid">
+
+                <!-- Package 5: Thailand -->
+                <div class="tour-card reveal" data-package="thailand">
+                    <div class="tour-card-image">
+                        <img src="images/thailand.jpg" alt="Thailand beach temple" loading="lazy">
+                        <div class="tour-badge">Best Seller</div>
+                        <div class="tour-price">₹49,999<span>/person</span></div>
+                    </div>
+                    <div class="tour-card-body">
+                        <div class="tour-meta">
+                            <span class="tour-duration">🕐 7 Days / 6 Nights</span>
+                            <span class="tour-rating">⭐ 4.9</span>
+                        </div>
+                        <h3 class="tour-name">Thailand Explorer</h3>
+                        <p class="tour-route">Bangkok → Pattaya → Phuket</p>
+                        <p class="tour-desc">The Land of Smiles — golden temples, vibrant street markets, stunning islands, and a nightlife that never sleeps.</p>
+                        <div class="tour-highlights">
+                            <span class="tag">Grand Palace</span>
+                            <span class="tag">Phi Phi Islands</span>
+                            <span class="tag">Floating Market</span>
+                            <span class="tag">Thai Massage</span>
+                        </div>
+                        <div class="tour-actions">
+                            <button class="btn btn-outline" onclick="openItinerary('thailand')">View Itinerary</button>
+                            <a href="#booking" class="btn btn-primary btn-sm" onclick="selectPackage('Thailand Explorer (Bangkok–Pattaya–Phuket)')">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Package 6: Bali -->
+                <div class="tour-card reveal" data-package="bali">
+                    <div class="tour-card-image">
+                        <img src="images/bali.jpg" alt="Bali rice terraces and temple" loading="lazy">
+                        <div class="tour-badge trending">Trending</div>
+                        <div class="tour-price">₹54,999<span>/person</span></div>
+                    </div>
+                    <div class="tour-card-body">
+                        <div class="tour-meta">
+                            <span class="tour-duration">🕐 6 Days / 5 Nights</span>
+                            <span class="tour-rating">⭐ 4.8</span>
+                        </div>
+                        <h3 class="tour-name">Bali Paradise</h3>
+                        <p class="tour-route">Seminyak → Ubud → Kintamani → Nusa Dua</p>
+                        <p class="tour-desc">Island of the Gods — sacred temples, emerald rice terraces, volcanic landscapes, and world-class beach clubs.</p>
+                        <div class="tour-highlights">
+                            <span class="tag">Rice Terraces</span>
+                            <span class="tag">Temples</span>
+                            <span class="tag">Volcano Trek</span>
+                            <span class="tag">Beach Clubs</span>
+                        </div>
+                        <div class="tour-actions">
+                            <button class="btn btn-outline" onclick="openItinerary('bali')">View Itinerary</button>
+                            <a href="#booking" class="btn btn-primary btn-sm" onclick="selectPackage('Bali Paradise (Indonesia)')">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Package 7: Europe -->
+                <div class="tour-card reveal" data-package="europe">
+                    <div class="tour-card-image">
+                        <img src="images/europe.jpg" alt="Paris Eiffel Tower - Europe Highlights Tour" loading="lazy">
+                        <div class="tour-badge premium">Premium</div>
+                        <div class="tour-price">₹1,49,999<span>/person</span></div>
+                    </div>
+                    <div class="tour-card-body">
+                        <div class="tour-meta">
+                            <span class="tour-duration">🕐 10 Days / 9 Nights</span>
+                            <span class="tour-rating">⭐ 5.0</span>
+                        </div>
+                        <h3 class="tour-name">Europe Highlights</h3>
+                        <p class="tour-route">Paris → Zurich → Interlaken → Rome → Vatican</p>
+                        <p class="tour-desc">The grand European odyssey — Eiffel Tower, Swiss Alps, Colosseum, Venetian canals, and gourmet cuisine across three countries.</p>
+                        <div class="tour-highlights">
+                            <span class="tag">Eiffel Tower</span>
+                            <span class="tag">Swiss Alps</span>
+                            <span class="tag">Colosseum</span>
+                            <span class="tag">Vatican</span>
+                        </div>
+                        <div class="tour-actions">
+                            <button class="btn btn-outline" onclick="openItinerary('europe')">View Itinerary</button>
+                            <a href="#booking" class="btn btn-primary btn-sm" onclick="selectPackage('Europe Highlights (Paris–Zurich–Rome)')">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Package 8: Dubai -->
+                <div class="tour-card reveal" data-package="dubai">
+                    <div class="tour-card-image">
+                        <img src="images/dubai.jpg" alt="Dubai skyline and Burj Khalifa" loading="lazy">
+                        <div class="tour-badge">Hot Deal</div>
+                        <div class="tour-price">₹59,999<span>/person</span></div>
+                    </div>
+                    <div class="tour-card-body">
+                        <div class="tour-meta">
+                            <span class="tour-duration">🕐 6 Days / 5 Nights</span>
+                            <span class="tour-rating">⭐ 4.8</span>
+                        </div>
+                        <h3 class="tour-name">Dubai & Abu Dhabi</h3>
+                        <p class="tour-route">Dubai → Abu Dhabi → Desert Safari</p>
+                        <p class="tour-desc">The city of superlatives — Burj Khalifa, luxury malls, desert safaris, dhow cruises, and the stunning Sheikh Zayed Mosque.</p>
+                        <div class="tour-highlights">
+                            <span class="tag">Burj Khalifa</span>
+                            <span class="tag">Desert Safari</span>
+                            <span class="tag">Dubai Mall</span>
+                            <span class="tag">Grand Mosque</span>
+                        </div>
+                        <div class="tour-actions">
+                            <button class="btn btn-outline" onclick="openItinerary('dubai')">View Itinerary</button>
+                            <a href="#booking" class="btn btn-primary btn-sm" onclick="selectPackage('Dubai & Abu Dhabi')">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== WHY CHOOSE US ========== -->
+    <section id="about" class="section why-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">🏆 Why Choose Us</span>
+                <h2 class="section-title">Your Trusted Travel Partner</h2>
+                <p class="section-desc">At My TourBee, we don't just plan trips — we craft unforgettable journeys with personal attention and luxury at every step.</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card reveal">
+                    <div class="feature-icon">🧭</div>
+                    <h3>Expert Tour Guides</h3>
+                    <p>Our certified and experienced guides bring every destination to life with their in-depth knowledge and passion for travel.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon">💰</div>
+                    <h3>Best Price Guarantee</h3>
+                    <p>Transparent pricing with no hidden costs. We guarantee the most competitive rates for premium quality travel experiences.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon">📞</div>
+                    <h3>24/7 Support</h3>
+                    <p>Round-the-clock assistance before, during, and after your trip. Your safety and comfort are our top priority.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon">✨</div>
+                    <h3>Customizable Trips</h3>
+                    <p>Every traveler is unique. We tailor itineraries to match your preferences, pace, and budget for a truly personal experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== TESTIMONIALS ========== -->
+    <section class="section testimonials-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">💬 Testimonials</span>
+                <h2 class="section-title">What Our Travelers Say</h2>
+            </div>
+
+            <div class="testimonial-slider" id="testimonialSlider">
+                <div class="testimonial-track" id="testimonialTrack">
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">"My TourBee made our Golden Triangle trip absolutely magical! Every hotel was top-notch, the guide was incredibly knowledgeable, and the sunset view of the Taj Mahal was a moment I'll cherish forever."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">RS</div>
+                            <div>
+                                <h4>Ramesh Subramanian</h4>
+                                <span>Golden Triangle Tour — Dec 2025</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">"Our Thailand family trip was perfectly organized. From the Bangkok temples to Phuket beaches, everything was seamless. The kids loved every moment! Highly recommended for families."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">PK</div>
+                            <div>
+                                <h4>Priya Krishnan</h4>
+                                <span>Thailand Explorer — Jan 2026</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">"The Bali trip exceeded all expectations! The rice terraces were breathtaking, the temple visits were spiritual, and the private villa was absolute luxury. TourBee knows how to deliver premium experiences."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">AK</div>
+                            <div>
+                                <h4>Arun Kumar</h4>
+                                <span>Bali Paradise — Mar 2026</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">"Europe in 10 days was a dream come true! The Eiffel Tower, Swiss Alps train ride, and Roman Colosseum — all perfectly planned. My TourBee's attention to detail is remarkable. Will definitely book again!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">SM</div>
+                            <div>
+                                <h4>Sneha Menon</h4>
+                                <span>Europe Highlights — May 2026</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-nav">
+                    <button class="testimonial-btn prev" id="prevTestimonial" aria-label="Previous testimonial">❮</button>
+                    <div class="testimonial-dots" id="testimonialDots"></div>
+                    <button class="testimonial-btn next" id="nextTestimonial" aria-label="Next testimonial">❯</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== BOOKING FORM ========== -->
+    <section id="booking" class="section booking-section">
+        <div class="container">
+            <div class="booking-wrapper reveal">
+                <div class="booking-info">
+                    <span class="section-tag">📋 Book Your Trip</span>
+                    <h2 class="section-title">Ready for Your Next Adventure?</h2>
+                    <p>Fill out the form and our travel experts will get back to you within 24 hours with a personalized quote.</p>
+                    <div class="booking-features">
+                        <div class="bf-item">
+                            <span class="bf-icon">✓</span>
+                            <span>Free cancellation up to 30 days before travel</span>
+                        </div>
+                        <div class="bf-item">
+                            <span class="bf-icon">✓</span>
+                            <span>Flexible payment options — EMI available</span>
+                        </div>
+                        <div class="bf-item">
+                            <span class="bf-icon">✓</span>
+                            <span>Customizable itinerary on request</span>
+                        </div>
+                        <div class="bf-item">
+                            <span class="bf-icon">✓</span>
+                            <span>Group discounts for 5+ travelers</span>
+                        </div>
+                    </div>
+                </div>
+                <form id="bookingForm" class="booking-form" novalidate>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="fullName">Full Name *</label>
+                            <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+                            <span class="form-error" id="fullNameError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                            <span class="form-error" id="emailError"></span>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+91 XXXXX XXXXX" required>
+                            <span class="form-error" id="phoneError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="tourPackage">Tour Package *</label>
+                            <select id="tourPackage" name="tourPackage" required>
+                                <option value="">Select a package</option>
+                                <optgroup label="🇮🇳 Domestic Tours">
+                                    <option value="Golden Triangle (Delhi–Agra–Jaipur)">Golden Triangle (Delhi–Agra–Jaipur) — ₹24,999</option>
+                                    <option value="Kerala Backwaters & Hills">Kerala Backwaters & Hills — ₹29,999</option>
+                                    <option value="Goa Beach Holiday">Goa Beach Holiday — ₹18,999</option>
+                                    <option value="Rajasthan Royal Heritage">Rajasthan Royal Heritage — ₹34,999</option>
+                                </optgroup>
+                                <optgroup label="🌍 International Tours">
+                                    <option value="Thailand Explorer (Bangkok–Pattaya–Phuket)">Thailand Explorer (Bangkok–Pattaya–Phuket) — ₹49,999</option>
+                                    <option value="Bali Paradise (Indonesia)">Bali Paradise (Indonesia) — ₹54,999</option>
+                                    <option value="Europe Highlights (Paris–Zurich–Rome)">Europe Highlights (Paris–Zurich–Rome) — ₹1,49,999</option>
+                                    <option value="Dubai & Abu Dhabi">Dubai & Abu Dhabi — ₹59,999</option>
+                                </optgroup>
+                            </select>
+                            <span class="form-error" id="tourPackageError"></span>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="travelDate">Preferred Travel Date *</label>
+                            <input type="date" id="travelDate" name="travelDate" required>
+                            <span class="form-error" id="travelDateError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="adults">Number of Adults *</label>
+                            <select id="adults" name="adults" required>
+                                <option value="">Select</option>
+                                <option value="1">1 Adult</option>
+                                <option value="2" selected>2 Adults</option>
+                                <option value="3">3 Adults</option>
+                                <option value="4">4 Adults</option>
+                                <option value="5">5 Adults</option>
+                                <option value="6+">6+ Adults</option>
+                            </select>
+                            <span class="form-error" id="adultsError"></span>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="children">Number of Children</label>
+                            <select id="children" name="children">
+                                <option value="0">No Children</option>
+                                <option value="1">1 Child</option>
+                                <option value="2">2 Children</option>
+                                <option value="3">3 Children</option>
+                                <option value="4+">4+ Children</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="budget">Budget Range</label>
+                            <select id="budget" name="budget">
+                                <option value="">Select budget range</option>
+                                <option value="under-25k">Under ₹25,000</option>
+                                <option value="25k-50k">₹25,000 - ₹50,000</option>
+                                <option value="50k-1L">₹50,000 - ₹1,00,000</option>
+                                <option value="1L-2L">₹1,00,000 - ₹2,00,000</option>
+                                <option value="above-2L">Above ₹2,00,000</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="specialReq">Special Requirements</label>
+                        <textarea id="specialReq" name="specialReq" rows="4" placeholder="Any dietary requirements, accessibility needs, special occasions, room preferences, etc."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+                        <span class="btn-text">Submit Booking Inquiry</span>
+                        <span class="btn-loader" style="display:none;">
+                            <span class="spinner"></span> Submitting...
+                        </span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">📍 Get in Touch</span>
+                <h2 class="section-title">Contact Us</h2>
+                <p class="section-desc">We'd love to hear from you! Visit our office or reach out through any of the channels below.</p>
+            </div>
+
+            <div class="contact-grid reveal">
+                <div class="contact-card">
+                    <div class="contact-icon">📍</div>
+                    <h3>Our Office</h3>
+                    <p>My TourBee Tours & Travels</p>
+                    <p>RS Puram, Coimbatore</p>
+                    <p>Tamil Nadu, India — 641002</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">📞</div>
+                    <h3>Call Us</h3>
+                    <p><a href="tel:+919442294888">+91 94422 94888</a></p>
+                    <p><a href="tel:+919487007583">+91 94870 07583</a></p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">✉️</div>
+                    <h3>Email Us</h3>
+                    <p><a href="mailto:mytourbee@gmail.com">mytourbee@gmail.com</a></p>
+                    <p><a href="mailto:info@mytourbee.com">info@mytourbee.com</a></p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">🕐</div>
+                    <h3>Working Hours</h3>
+                    <p>Mon – Sat: 9:30 AM – 7:00 PM</p>
+                    <p>Sunday: 10:00 AM – 4:00 PM</p>
+                </div>
+            </div>
+
+            <div class="contact-map reveal">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.5!2d76.95!3d11.01!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba859af2f461b59%3A0x5f3e4b9c57f8a2f0!2sRS%20Puram%2C%20Coimbatore%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1695000000000!5m2!1sen!2sin" 
+                    width="100%" 
+                    height="350" 
+                    style="border:0; border-radius: 16px;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="My TourBee office location - RS Puram, Coimbatore">
+                </iframe>
+            </div>
+
+            <div class="social-links reveal">
+                <h3>Follow Us</h3>
+                <div class="socials">
+                    <a href="https://wa.me/919442294888" class="social-btn whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    </a>
+                    <a href="https://instagram.com/mytourbee" class="social-btn instagram" target="_blank" rel="noopener" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                    </a>
+                    <a href="https://facebook.com/mytourbee" class="social-btn facebook" target="_blank" rel="noopener" aria-label="Facebook">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    </a>
+                    <a href="https://youtube.com/@mytourbee" class="social-btn youtube" target="_blank" rel="noopener" aria-label="YouTube">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="images/logo.png" alt="My TourBee Logo" class="footer-logo">
+                    <p>Luxury Travel Experiences since 2010. We craft unforgettable journeys for travelers who demand the best.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#domestic">Domestic Tours</a></li>
+                        <li><a href="#international">International Tours</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#booking">Book Now</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Popular Tours</h4>
+                    <ul>
+                        <li><a href="#domestic">Golden Triangle</a></li>
+                        <li><a href="#domestic">Kerala Backwaters</a></li>
+                        <li><a href="#international">Thailand Explorer</a></li>
+                        <li><a href="#international">Bali Paradise</a></li>
+                        <li><a href="#international">Europe Highlights</a></li>
+                        <li><a href="#international">Dubai & Abu Dhabi</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p>📍 RS Puram, Coimbatore, Tamil Nadu</p>
+                    <p>📞 <a href="tel:+919442294888">+91 94422 94888</a></p>
+                    <p>📞 <a href="tel:+919487007583">+91 94870 07583</a></p>
+                    <p>✉️ <a href="mailto:mytourbee@gmail.com">mytourbee@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 My TourBee Tours & Travels. All Rights Reserved.</p>
+                <div class="payment-methods">
+                    <span>We Accept:</span>
+                    <span class="payment-badge">UPI</span>
+                    <span class="payment-badge">Cards</span>
+                    <span class="payment-badge">Net Banking</span>
+                    <span class="payment-badge">EMI</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ========== ITINERARY MODAL ========== -->
+    <div class="modal-overlay" id="itineraryModal">
+        <div class="modal">
+            <button class="modal-close" id="modalClose" aria-label="Close itinerary modal">&times;</button>
+            <div class="modal-content" id="modalContent">
+                <!-- Filled dynamically by JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- ========== SUCCESS TOAST ========== -->
+    <div class="toast" id="successToast">
+        <div class="toast-icon">✅</div>
+        <div class="toast-body">
+            <h4>Booking Inquiry Submitted!</h4>
+            <p>Our travel expert will contact you within 24 hours.</p>
+        </div>
+    </div>
+
+    <!-- ========== WHATSAPP FLOATING BUTTON ========== -->
+    <a href="https://wa.me/919442294888?text=Hi%20My%20TourBee!%20I'm%20interested%20in%20a%20tour%20package." class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+        <svg viewBox="0 0 24 24" width="28" height="28" fill="#fff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    </a>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
