@@ -1,14 +1,3 @@
-# Dependencies & Builds
+.DS_Store
 node_modules/
 .vercel/
-dist/
-
-# Operating System Files
-.DS_Store
-Thumbs.db
-desktop.ini
-*.tmp
-
-# Logs
-*.log
-npm-debug.log*
